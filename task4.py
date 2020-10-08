@@ -7,3 +7,11 @@ Return False if the number is not an integer
 (2 points)
 """
 
+
+def isInteger(a):
+    if a % 1 == 0:
+        result = True
+        return result
+    else:
+        result = False
+        return result
