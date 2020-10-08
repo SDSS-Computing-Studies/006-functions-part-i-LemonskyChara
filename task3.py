@@ -6,3 +6,10 @@ The return value is the sum of all the numbers in the list
 added together
 (2 points)
 """
+
+a = 0
+def sum(numlist):
+    global a
+    for i in numlist:
+        a = a + i
+    return a
