@@ -13,6 +13,3 @@ def largest(numlist):
         if i > a:
             a = i
     return a
-numberlist = [5,1,12.3]
-b = largest(numberlist)
-print(b)
