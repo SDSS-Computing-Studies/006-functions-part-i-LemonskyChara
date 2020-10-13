@@ -8,7 +8,7 @@ added together
 """
 
 
-def sum(numlist):
+def perimeter(numlist):
     a = 0
     for i in numlist:
         a = a + i
