@@ -9,15 +9,15 @@ Return the missing side
 """
 
 import math
-def hypotenuse(a):
-    if a[2] == True:
-        b = a[0]
-        if a[0] > a[1]:
-            d = math.sqrt(a[0] ** 2 - a[1] ** 2)
+def hypotenuse(a,b,c):
+    if c == True:
+        b = a
+        if a > b:
+            d = math.sqrt(a ** 2 - b ** 2)
             return d
-        elif a[1] > a[0]:
-            d = math.sqrt(a[1] ** 2 - a[2] ** 2)
+        elif b > a:
+            d = math.sqrt(b ** 2 - c ** 2)
             return d
-    elif a[2] == False:
-        c = math.sqrt(a[0] ** 2 + a[1] ** 2)
-        return c
+    elif c == False:
+        d = math.sqrt(a ** 2 + b ** 2)
+        return d
