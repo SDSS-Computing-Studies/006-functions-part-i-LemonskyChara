@@ -7,9 +7,9 @@ added together
 (2 points)
 """
 
-a = 0
+
 def sum(numlist):
-    global a
+    a = 0
     for i in numlist:
         a = a + i
     return a
