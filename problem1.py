@@ -11,7 +11,6 @@ Return the missing side
 import math
 def hypotenuse(a,b,c):
     if c == True:
-        b = a
         if a > b:
             d = math.sqrt(a ** 2 - b ** 2)
             return d
@@ -21,3 +20,5 @@ def hypotenuse(a,b,c):
     elif c == False:
         d = math.sqrt(a ** 2 + b ** 2)
         return d
+x = hypotenuse(13,5,True)
+print(x)
